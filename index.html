@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>6 Clues 1 Word - Legal Documents & Privacy Policy</title>
+  <meta name="description" content="Official Privacy Policy and Terms of Service for 6 Clues 1 Word mobile application." />
+  <link rel="icon" type="image/png" href="icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0F172A;
+      --card-bg: #1E293B;
+      --border-color: #334155;
+      --primary-color: #6366F1;
+      --primary-hover: #4F46E5;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --accent-gold: #F59E0B;
+    }
+
+    [data-theme="light"] {
+      --bg-color: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --border-color: #E2E8F0;
+      --primary-color: #4F46E5;
+      --primary-hover: #4338CA;
+      --text-main: #0F172A;
+      --text-muted: #64748B;
+      --accent-gold: #D97706;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 24px 16px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 36px 20px 28px;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+
+    .app-logo-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .nav-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .tab-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 12px 24px;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn.active {
+      background: var(--primary-color);
+      color: #FFFFFF;
+      border-color: var(--primary-color);
+      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 10px 16px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      z-index: 100;
+    }
+
+    .doc-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      padding: 32px 28px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    }
+
+    .doc-section {
+      margin-bottom: 32px;
+    }
+
+    .doc-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--border-color);
+      text-align: center;
+    }
+
+    .sub-header {
+      font-size: 15px;
+      font-weight: 700;
+      margin: 18px 0 8px;
+      color: var(--primary-color);
+      text-align: center;
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      white-space: pre-line;
+    }
+
+    ul, ol {
+      padding-left: 24px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: var(--text-main);
+      font-weight: 700;
+    }
+
+    .bullet-bold {
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .contact-email {
+      color: var(--primary-color);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 16px 12px;
+      }
+      header, .doc-card {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      .tab-btn {
+        padding: 10px 16px;
+        font-size: 13px;
+      }
+      .theme-toggle {
+        top: 12px;
+        right: 12px;
+        padding: 8px 12px;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <button class="theme-toggle" id="themeToggleBtn">☀️ Toggle Theme</button>
+
+  <div class="container">
+    <header>
+      <img src="icon.png" alt="6 Clues 1 Word Logo" class="app-logo-img" />
+      <h1>6 Clues 1 Word</h1>
+      <div class="subtitle">Global Compliance Standard • Version 3.0 (Last Updated: January 2026)</div>
+    </header>
+
+    <div class="nav-tabs">
+      <button class="tab-btn active" id="tabPrivacyBtn" onclick="showTab('privacy')">Privacy Policy</button>
+      <button class="tab-btn" id="tabTermsBtn" onclick="showTab('terms')">Terms of Service</button>
+    </div>
+
+    <!-- PRIVACY POLICY CONTENT (WORD-FOR-WORD MATCH WITH LegalDocumentScreen.tsx) -->
+    <main id="privacyDoc" class="doc-card">
+      <div class="doc-section">
+        <h2 class="section-title">1. Overview & Data Controller Information</h2>
+        <p>This Comprehensive Privacy Policy governs the processing of personal data collected through the mobile application "6 Clues 1 Word" (including all associated software, features, cloud synchronization services, and customer support channels, collectively referred to as "the Application" or "Service").
+
+This policy applies globally to all users ("you", "your", "Player") and enforces compliance with global data protection frameworks, including but not limited to:
+• The European Union General Data Protection Regulation (EU GDPR - Regulation 2016/679)
+• The United Kingdom General Data Protection Regulation (UK GDPR) and Data Protection Act 2018
+• The Nigeria Data Protection Act 2023 (NDPA) and NDPR
+• The California Consumer Privacy Act (CCPA) as amended by the California Privacy Rights Act (CPRA)
+• The Brazil General Data Protection Law (LGPD - Lei Geral de Proteção de Dados)
+• The Canadian Personal Information Protection and Electronic Documents Act (PIPEDA)
+• Apple App Store Developer Program License Agreement & Guidelines (Guideline 5.1)
+• Google Play Developer Program Policies</p>
+
+        <div class="sub-header">Data Controller Designation:</div>
+        <p>For the purposes of applicable data protection laws, the Data Controller responsible for your personal data is Intellectual Curiosity.
+
+For any data privacy inquiries, requests to exercise your statutory rights, or compliance notices, please contact our Data Protection Officer (DPO) at:
+• Contact Email: <a href="mailto:intellectualcuriositygames@gmail.com" class="contact-email">intellectualcuriositygames@gmail.com</a></p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">2. Legal Basis for Processing Under GDPR & Global Laws</h2>
+        <p>We process your personal data strictly in accordance with lawful processing conditions under Article 6 of the EU/UK GDPR and Section 25 of the Nigeria Data Protection Act:</p>
+        <ul>
+          <li><span class="bullet-bold">Performance of a Contract (Art. 6(1)(b)):</span> Processing is necessary to fulfill our contractual obligation to provide the Application to you, including creating user accounts, maintaining your puzzle progress, executing daily streak tracking, processing in-app purchases, and synchronizing game state across devices.</li>
+          <li><span class="bullet-bold">Consent (Art. 6(1)(a)):</span> Where required by law, we obtain your explicit consent prior to serving personalized advertisements via Google AdMob, sending local push notification reminders, or accessing specific device telemetry.</li>
+          <li><span class="bullet-bold">Legitimate Interests (Art. 6(1)(f)):</span> Processing is necessary for our legitimate business interests, including preventing fraudulent activities, ensuring server and database security, analyzing app stability via crash telemetry (Sentry), optimizing user interface flows, and balancing puzzle difficulty.</li>
+          <li><span class="bullet-bold">Legal Compliance (Art. 6(1)(c)):</span> Processing is necessary to comply with statutory legal, accounting, tax, and regulatory requirements (such as retaining transaction logs for financial audits).</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">3. Exhaustive Categories of Personal Data Collected</h2>
+        <p>We collect information directly from you, automatically through your mobile device hardware, and through integrated software development kits (SDKs):</p>
+        
+        <div class="sub-header">A. Information Provided Directly By You:</div>
+        <ul>
+          <li><strong>Account Registration Data:</strong> Email address, authentication tokens, display name, and password hashes (when creating an account or linking via Supabase Auth).</li>
+          <li><strong>Support & Communications:</strong> Content of email messages, bug reports, feedback submissions, and support correspondence sent to intellectualcuriositygames@gmail.com.</li>
+        </ul>
+
+        <div class="sub-header">B. Automatically Collected Technical & Device Identifiers:</div>
+        <ul>
+          <li><strong>Hardware Identifiers:</strong> Vendor Identifier (IDFV for iOS), Android Advertising ID (GAID), Apple Identifier for Advertisers (IDFA), and unique application installation UUIDs.</li>
+          <li><strong>Network & System Data:</strong> Internet Protocol (IP) address, connection type (Wi-Fi, 4G, 5G), mobile network operator, device brand, hardware model, operating system build version, kernel version, system language, locale settings, screen resolution, time zone offset, battery status, and memory availability.</li>
+        </ul>
+
+        <div class="sub-header">C. Gameplay & Telemetry Records:</div>
+        <ul>
+          <li><strong>Progress Telemetry:</strong> Complete history of attempted and solved puzzles, timestamp of puzzle completions, clue reveal status, letter bomb usage, free clue inventory, coins earned and spent, experience points (XP), current level, detective rank progression, longest streak, current daily streak, and story mode case file completion states.</li>
+        </ul>
+
+        <div class="sub-header">D. Financial & Transactional Data:</div>
+        <ul>
+          <li><strong>Receipt Verification Data:</strong> RevenueCat original app user ID, Store Transaction ID, purchase timestamp, product SKU code, currency, purchase price, subscription renewal status, expiration date, and active entitlement grants.</li>
+          <li><em>Important Note: We do NOT collect, store, or process raw credit card numbers, debit card details, or banking information. All payment processing is handled strictly by Apple Inc. (App Store) or Google LLC (Google Play Store).</em></li>
+        </ul>
+
+        <div class="sub-header">E. Diagnostic & Error Logs:</div>
+        <ul>
+          <li><strong>Sentry Diagnostic Logs:</strong> Crash reports, stack traces, unhandled JavaScript exceptions, memory allocation failures, component breadcrumbs, and network latency metrics captured automatically during app crashes or errors.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">4. Detailed Purposes of Data Processing</h2>
+        <p>We process collected data exclusively for the following defined operational and commercial purposes:</p>
+        <ol>
+          <li>Operating, maintaining, and delivering all gameplay modes (Classic, Daily Challenge, Mastery Challenge, Story Mode).</li>
+          <li>Synchronizing game save files, coins, achievements, and unlocked levels across multiple devices via cloud database architecture.</li>
+          <li>Verifying, validating, and granting digital items, coin bundles, lifetime ad-free unlocks, and PRO subscription benefits.</li>
+          <li>Detecting, investigating, and preventing cheating, memory manipulation, leaderboard tampering, unauthorized database modification, or abusive behavior.</li>
+          <li>Serving non-intrusive advertisements to free-tier users via Google AdMob in compliance with ad privacy standards.</li>
+          <li>Tracking crash reports and diagnostic stack traces via Sentry to debug software defects and improve frame rates and stability.</li>
+          <li>Sending daily puzzle reminders and streak protection alerts via local device notifications (only if enabled).</li>
+          <li>Complying with statutory accounting, tax reporting, legal processes, and law enforcement requests.</li>
+        </ol>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">5. Third-Party Sub-Processors & Data Transfer Recipients</h2>
+        <p>To provide our services, we share specific categories of data with carefully vetted third-party sub-processors. All sub-processors operate under strict Data Processing Agreements (DPAs) and maintain industry-standard security certifications (SOC 2, ISO 27001):</p>
+        <ul>
+          <li><span class="bullet-bold">Supabase Inc. (Database & Auth):</span> Cloud database hosting, user authentication, and real-time state synchronization. Servers located in secure data centers (US/EU) protected by Standard Contractual Clauses (SCCs).</li>
+          <li><span class="bullet-bold">RevenueCat Inc. (In-App Purchases):</span> Receipt validation, in-app purchase flow management, and subscription entitlement tracking.</li>
+          <li><span class="bullet-bold">Functional Software Inc. d/b/a Sentry (Error Telemetry):</span> Real-time error monitoring, stack trace capture, and crash reporting.</li>
+          <li><span class="bullet-bold">Google LLC / Google Ireland Ltd. (AdMob & Play Services):</span> Ad serving, impression tracking, ad fraud protection, and Android Play Store services.</li>
+          <li><span class="bullet-bold">Apple Inc. (App Store Services):</span> iOS in-app purchase verification, Apple Sign-In authentication, and push notification routing via APNs.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">6. International Cross-Border Data Transfers</h2>
+        <p>Your information may be transferred to, stored, and processed in servers located outside your home country or region, including in the United States and the European Economic Area (EEA).
+
+Where international transfers of personal data originating from the EEA, UK, Switzerland, or Nigeria occur, we ensure robust transfer mechanisms are in place, including European Commission Standard Contractual Clauses (SCCs), UK International Data Transfer Agreements (IDTAs), and NDPA trans-border data transfer safeguards.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">7. Comprehensive Data Retention & Automated Deletion Schedule</h2>
+        <p>We adhere to strict data minimization principles and retain data only for as long as necessary to fulfill the purposes outlined in this policy:</p>
+        <ul>
+          <li><span class="bullet-bold">Active Accounts:</span> User accounts and associated game progress are retained indefinitely while the account remains active to allow seamless gameplay across sessions.</li>
+          <li><span class="bullet-bold">Inactive Accounts:</span> Cloud account data for accounts remaining completely inactive for more than twenty-four (24) consecutive months will be queued for automated purging.</li>
+          <li><span class="bullet-bold">Diagnostic Logs:</span> Crash logs and error traces captured in Sentry are automatically overwritten and purged on a rolling ninety (90) day retention cycle.</li>
+          <li><span class="bullet-bold">Financial Records:</span> Transaction histories and store purchase receipts are retained for up to seven (7) years to comply with statutory tax, auditing, and accounting obligations.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section" id="account-deletion">
+        <h2 class="section-title">8. Mandatory Account Deletion & User Data Rights (Google Play & Apple Compliance)</h2>
+        <p>In compliance with Google Play Developer Policies, Apple App Store Guideline 5.1.1(v), and global privacy mandates, players of <strong>6 Clues 1 Word</strong> (developed by <strong>Intellectual Curiosity Games</strong>) possess the absolute right to request the permanent deletion of their account and all associated personal and gameplay data at any time:</p>
+        <ul>
+          <li><span class="bullet-bold">In-App Account Deletion:</span> You can initiate instant account deletion directly inside the App by navigating to <strong>Settings → Account → Delete Account & Data</strong>.</li>
+          <li><span class="bullet-bold">Web / Email Request:</span> If you have uninstalled the app or prefer to request deletion via the web, send an email to <a href="mailto:intellectualcuriositygames@gmail.com?subject=6%20Clues%201%20Word%20-%20Account%20Deletion%20Request" class="contact-email">intellectualcuriositygames@gmail.com</a> with the subject line <em>"Account Deletion Request"</em> from your registered email address.</li>
+        </ul>
+        <p><strong>Data Purged:</strong> Upon receiving a deletion request, your user account record, authentication credentials, detective rank, XP, puzzle completion history, coin balances, and cloud save files will be permanently and irreversibly purged from our active databases within thirty (30) calendar days. No personal gameplay data is retained after deletion.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">9. Children's Privacy Protection (COPPA & GDPR Art. 8)</h2>
+        <p>6 Clues 1 Word is designed as a general audience word puzzle game primarily intended for users eighteen (18) years of age and older, and is NOT directed to children under eighteen (18) years of age or statutory minors under thirteen (13) years of age in the United States or under sixteen (16) years of age in the European Union and United Kingdom.
+
+We do not knowingly collect, request, or solicit personal data from children under these statutory age limits. If we discover that a child under the required age has provided personal data without parental consent, we will immediately take steps to terminate the account and purge all associated data from our servers. If you are a parent or guardian and believe your child has provided personal information to us, please contact us at <a href="mailto:intellectualcuriositygames@gmail.com" class="contact-email">intellectualcuriositygames@gmail.com</a>.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">10. Your Full Statutory Data Rights</h2>
+        <p>Subject to local data protection laws (such as GDPR Art. 15-22, NDPA Sec. 34-38, LGPD Art. 18, and CCPA), you hold the following non-negotiable data rights:</p>
+        <ol>
+          <li><strong>Right of Access & Data Portability:</strong> Request confirmation of data processing and obtain a structured, machine-readable copy of your personal data.</li>
+          <li><strong>Right to Rectification:</strong> Request correction of inaccurate, incomplete, or out-of-date personal information.</li>
+          <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> Request permanent deletion of all personal data held by us.</li>
+          <li><strong>Right to Restrict or Object to Processing:</strong> Object to processing based on legitimate interests or request restrictions on specific processing activities.</li>
+          <li><strong>Right to Withdraw Consent:</strong> Withdraw previously granted consent for ad personalization or push notifications at any time without affecting prior lawful processing.</li>
+          <li><strong>Right to Lodge a Complaint:</strong> File a complaint with your local Data Protection Supervisory Authority (such as an EU Data Protection Authority, the UK Information Commissioner's Office (ICO), or the Nigeria Data Protection Commission (NDPC)).</li>
+        </ol>
+        <p>To exercise any of these rights, email your request to <a href="mailto:intellectualcuriositygames@gmail.com" class="contact-email">intellectualcuriositygames@gmail.com</a>. We will respond within thirty (30) days.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">11. Notice to California Residents (CCPA / CPRA Disclosures)</h2>
+        <p>This section applies exclusively to California residents under the California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA):</p>
+        <ul>
+          <li><span class="bullet-bold">Categories Collected in Past 12 Months:</span> Identifiers (IP address, IDFA/GAID, email), Commercial Information (in-app purchase receipts), Internet/Network Activity (gameplay telemetry, crash logs), and Geolocation Data (coarse country/city level derived from IP).</li>
+          <li><span class="bullet-bold">Sale or Sharing Disclosure:</span> We do NOT "sell" your personal information for monetary consideration. We do NOT "share" personal information for cross-context behavioral advertising without consent.</li>
+          <li><span class="bullet-bold">Right to Opt-Out & Non-Discrimination:</span> You have the right to opt-out of personalized ads via your iOS or Android system privacy settings. We will never discriminate against you for exercising your CCPA rights.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">12. Cookies, Storage Technologies, & Security Measures</h2>
+        <p>The Application uses local SQLite relational databases, encrypted key-value pairs (AsyncStorage), and device memory cache to store puzzle progress, theme preferences, audio toggles, and offline cache.
+
+We employ state-of-the-art technical and organizational security measures—including TLS 1.3 network encryption, role-based database access controls, hashed authentication tokens, and continuous vulnerability scanning—to protect your personal information against unauthorized access, loss, alteration, or disclosure.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">13. Policy Modifications & Contact Details</h2>
+        <p>We reserve the right to modify this Privacy Policy at any time to reflect software enhancements, service updates, or legal changes. Material changes will be highlighted via in-app banner announcements or store update notes. Continued use of the Application following published updates constitutes your acceptance of the revised policy.
+
+For privacy requests, legal inquiries, or general support:
+• Data Protection Officer Contact: <a href="mailto:intellectualcuriositygames@gmail.com" class="contact-email">intellectualcuriositygames@gmail.com</a>
+• App Name: 6 Clues 1 Word</p>
+      </div>
+    </main>
+
+    <!-- TERMS OF SERVICE CONTENT (WORD-FOR-WORD MATCH WITH LegalDocumentScreen.tsx) -->
+    <main id="termsDoc" class="doc-card" style="display: none;">
+      <div class="doc-section">
+        <h2 class="section-title">1. Acceptance of Terms & Binding Agreement</h2>
+        <p>These Comprehensive Terms of Service ("Terms", "Agreement") constitute a legally binding contract between you ("Player", "User", "you") and the developers of 6 Clues 1 Word ("we", "us", "our").
+
+By downloading, installing, accessing, launching, or playing 6 Clues 1 Word (the "Application" or "Service"), you acknowledge that you have read, understood, and unconditionally agree to be bound by these Terms and our Privacy Policy. If you do not agree to every provision of these Terms, you are prohibited from accessing the Application and must immediately uninstall it from your devices.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">2. Eligibility & Authority</h2>
+        <p>You affirm that you are at least eighteen (18) years of age, or that you possess legal parental or guardian consent to enter into this Agreement if between the statutory minimum age of digital consent (thirteen (13) years of age in the United States or sixteen (16) years of age in the European Union / United Kingdom) and the age of majority in your jurisdiction. You represent and warrant that you possess full legal capacity and authority to enter into this binding legal contract.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">3. User Accounts, Credentials, & Security</h2>
+        <ul>
+          <li><span class="bullet-bold">Guest & Linked Accounts:</span> You may access gameplay features as a guest or by registering a linked account via Supabase Auth. You are solely responsible for maintaining the confidentiality of your account credentials and for all activities conducted under your account.</li>
+          <li><span class="bullet-bold">Prohibition of Account Transfer:</span> Accounts are strictly personal. You may not sell, rent, lease, trade, share, or transfer your user account, coins, virtual items, or progress to any third party.</li>
+          <li><span class="bullet-bold">Account Termination:</span> We reserve the right to suspend, disable, or permanently delete any user account without prior notice if we detect cheating, unauthorized database manipulation, server abuse, or violation of these Terms.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">4. License Grant, Use Restrictions, & Intellectual Property</h2>
+        <ul>
+          <li><span class="bullet-bold">Limited Revocable License:</span> Subject to your ongoing compliance with these Terms, we grant you a personal, non-exclusive, non-transferable, non-sublicensable, revocable license to download and execute one copy of the Application for non-commercial, personal entertainment on compatible mobile devices.</li>
+          <li><span class="bullet-bold">Ownership of Intellectual Property:</span> All rights, titles, and interests in and to 6 Clues 1 Word—including but not limited to all puzzle content, clue text, target words, category definitions, game mechanics, visual artwork, icons, graphics, animations, user interface design, custom styling, sound effects, music compositions, software code, databases, and trademarks—are owned exclusively by the developers and protected by international copyright, trademark, trade secret, and intellectual property laws.</li>
+          <li><span class="bullet-bold">Strict Usage Restrictions:</span> You shall NOT, under any circumstances:
+          <br>a) Copy, modify, adapt, translate, reverse-engineer, decompile, disassemble, or extract source code or underlying assets from the Application.
+          <br>b) Create derivative works based upon the Application or any puzzle content contained therein.
+          <br>c) Use web scrapers, bots, automated scripts, memory inspection tools, or data mining software to extract puzzle data, clues, or word answers.
+          <br>d) Remove, obscure, or alter any copyright notices, trademark symbols, or legal disclosures embedded within the App.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">5. Virtual Currency, Powerups, & In-App Goods Policy</h2>
+        <ul>
+          <li><span class="bullet-bold">Nature of Virtual Items:</span> The Application features digital virtual goods and currencies—including virtual coins, free clues, letter reveals, letter bombs, and story case files (collectively "Virtual Items"). Virtual Items are licensed to you under a limited, revocable license and are NOT sold.</li>
+          <li><span class="bullet-bold">No Real-World Value:</span> Virtual Items have NO cash or real-world monetary value, do not accrue interest, do not constitute personal property, and cannot be redeemed, exchanged, or refunded for fiat currency, legal tender, or physical goods from us or any third party.</li>
+          <li><span class="bullet-bold">Final Sales & Refund Policy:</span> All purchases of Virtual Items, coin packages, and subscription unlocks made through Apple App Store or Google Play Store are FINAL AND NON-REFUNDABLE, except as expressly mandated by Apple's App Store refund policy, Google Play's refund policy, or applicable statutory consumer rights in your region.</li>
+          <li><span class="bullet-bold">Right to Rebalance:</span> We reserve the absolute right to manage, regulate, control, modify, reprice, or eliminate Virtual Items, coin earn rates, or hint costs at any time without liability to you.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">6. Auto-Renewing Subscriptions (Apple App Store Guideline 3.1.2 & Google Play Policy)</h2>
+        <p>6 Clues 1 Word offers auto-renewing PRO Subscriptions (e.g. PRO Monthly and PRO Annual) providing unlimited past puzzle access, ad-free gameplay, and daily bonus perks:</p>
+        <ul>
+          <li><span class="bullet-bold">Payment & Billing:</span> Subscription fees will be charged to your iTunes / Apple ID Account or Google Play Account at confirmation of purchase.</li>
+          <li><span class="bullet-bold">Automatic Renewal Terms:</span> Subscriptions automatically renew for the same price and duration period as the initial subscription plan unless auto-renew is disabled at least twenty-four (24) hours before the end of the current billing cycle.</li>
+          <li><span class="bullet-bold">Renewal Charge Timing:</span> Your account will be charged for renewal within twenty-four (24) hours prior to the end of the current billing period at the then-current subscription rate.</li>
+          <li><span class="bullet-bold">Cancellation Instructions:</span> You may manage or cancel your subscription at any time by accessing your mobile device account settings:
+          <br>• <strong>iOS Devices:</strong> Open Settings → Tap your Apple ID → Subscriptions → Select 6 Clues 1 Word → Tap Cancel Subscription.
+          <br>• <strong>Android Devices:</strong> Open Google Play Store → Tap Profile Icon → Payments & Subscriptions → Subscriptions → Select 6 Clues 1 Word → Tap Cancel Subscription.</li>
+          <li><span class="bullet-bold">Effect of Cancellation:</span> Canceling a subscription stops future billing. You will retain PRO access through the end of your prepaid billing period. No partial refunds are issued for unused subscription periods.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">7. Acceptable Use & Fair Play Anti-Cheat Enforcement</h2>
+        <p>You agree to use 6 Clues 1 Word strictly in accordance with fair play standards and applicable laws. You agree NOT to:</p>
+        <ol>
+          <li>Use memory editor software (such as GameGuardian or Cheat Engine), APK modifiers, or database manipulators to modify coin totals, XP, streak numbers, or powerup balances.</li>
+          <li>Intercept, spoof, or tamper with backend Supabase database network packets or API endpoints.</li>
+          <li>Exploit bugs, glitches, or software flaws to gain unfair advantages or duplicate virtual items.</li>
+          <li>Transmit any malicious code, viruses, trojans, worms, or disruptive scripts through the Application.</li>
+        </ol>
+        <p>We employ automated anti-cheat monitoring. Accounts found to be in violation of Fair Play rules are subject to immediate progress resets, coin forfeitures, and permanent bans.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">8. Disclaimers of Warranties ('AS IS' & 'AS AVAILABLE')</h2>
+        <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, 6 CLUES 1 WORD IS PROVIDED STRICTLY ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITH ALL FAULTS AND WITHOUT WARRANTIES OF ANY KIND.
+
+WE EXPRESSLY DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE—INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, ACCURACY, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APPLICATION WILL OPERATE UNINTERRUPTED, BUG-FREE, SECURELY, OR WITHOUT DATA LOSS, OR THAT PUZZLE CONTENT IS FREE OF ERRORS.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">9. Limitation of Liability & Damages Exclusion</h2>
+        <p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE DEVELOPERS, AUTHORS, OWNERS, SUPPLIERS, OR DISTRIBUTORS OF 6 CLUES 1 WORD BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES WHATSOEVER—INCLUDING DAMAGES FOR LOSS OF PROFITS, LOSS OF DATA, GOODWILL, WORK STOPPAGE, COMPUTER FAILURE, DEVICE MALFUNCTION, OR COST OF PROCUREMENT OF SUBSTITUTE GOODS—ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OR INABILITY TO USE THE APPLICATION.
+
+IN NO EVENT SHALL OUR TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE APPLICATION EXCEED THE TOTAL AMOUNT ACTUALLY PAID BY YOU TO US FOR IN-APP PURCHASES IN THE SIX (6) MONTHS IMMEDIATELY PRECEDING THE CLAIM, OR FIFTY US DOLLARS ($50.00 USD), WHICHEVER IS GREATER.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">10. Indemnification</h2>
+        <p>You agree to defend, indemnify, and hold harmless the developers, creators, affiliates, service providers, sub-processors, and distributors of 6 Clues 1 Word from and against any and all claims, demands, damages, losses, liabilities, costs, and expenses (including reasonable attorney fees) arising out of or relating to: (a) your access to or use of the Application; (b) your violation of these Terms of Service; (c) your infringement of any intellectual property or statutory privacy rights of any third party; or (d) any fraudulent conduct or cheat activity associated with your account.</p>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">11. Mandatory Binding Arbitration & Class Action Waiver</h2>
+        <p>PLEASE READ THIS SECTION CAREFULLY AS IT AFFECTS YOUR LEGAL RIGHTS:</p>
+        <ul>
+          <li><span class="bullet-bold">Informal Resolution:</span> Before initiating formal legal proceedings, you and we agree to attempt to resolve any dispute, claim, or controversy informally by sending a written notice to intellectualcuriositygames@gmail.com.</li>
+          <li><span class="bullet-bold">Binding Individual Arbitration:</span> If informal resolution fails within sixty (60) days, any unresolved dispute arising out of or relating to this Agreement shall be settled exclusively through binding individual arbitration under standard commercial arbitration rules, rather than in court.</li>
+          <li><span class="bullet-bold">Class Action Waiver:</span> YOU AND WE AGREE THAT EACH PARTY MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS ACTION, COLLECTIVE ACTION, OR REPRESENTATIVE PROCEEDING.</li>
+        </ul>
+      </div>
+
+      <div class="doc-section">
+        <h2 class="section-title">12. Severability, Entire Agreement, & Contact Information</h2>
+        <ul>
+          <li><span class="bullet-bold">Severability:</span> If any provision of these Terms is found to be unlawful, void, or unenforceable, that provision shall be deemed severable and shall not affect the validity and enforceability of any remaining provisions.</li>
+          <li><span class="bullet-bold">Entire Agreement:</span> These Terms of Service and our Privacy Policy constitute the entire legal agreement between you and us regarding 6 Clues 1 Word and supersede all prior communications or understandings.</li>
+        </ul>
+        <p>For legal notices, terms inquiries, or player support:
+• Support Email: <a href="mailto:intellectualcuriositygames@gmail.com" class="contact-email">intellectualcuriositygames@gmail.com</a>
+• Game Title: 6 Clues 1 Word</p>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2026 6 Clues 1 Word. All rights reserved. • Hosted via GitHub Pages
+    </footer>
+  </div>
+
+  <script>
+    function showTab(tab) {
+      const privacyDoc = document.getElementById('privacyDoc');
+      const termsDoc = document.getElementById('termsDoc');
+      const tabPrivacyBtn = document.getElementById('tabPrivacyBtn');
+      const tabTermsBtn = document.getElementById('tabTermsBtn');
+
+      if (tab === 'privacy') {
+        privacyDoc.style.display = 'block';
+        termsDoc.style.display = 'none';
+        tabPrivacyBtn.classList.add('active');
+        tabTermsBtn.classList.remove('active');
+      } else {
+        privacyDoc.style.display = 'none';
+        termsDoc.style.display = 'block';
+        tabPrivacyBtn.classList.remove('active');
+        tabTermsBtn.classList.add('active');
+      }
+    }
+
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    let isDark = true;
+    themeToggleBtn.addEventListener('click', () => {
+      isDark = !isDark;
+      document.body.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      themeToggleBtn.textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+    });
+  </script>
+</body>
+</html>
