@@ -549,6 +549,25 @@ IN NO EVENT SHALL OUR TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR
       }
     }
 
+    function checkHash() {
+      const hash = (window.location.hash || '').toLowerCase();
+      if (hash.includes('terms')) {
+        showTab('terms');
+      } else {
+        showTab('privacy');
+      }
+      if (hash && hash !== '#terms' && hash !== '#privacy') {
+        try {
+          const el = document.querySelector(hash);
+          if (el) {
+            setTimeout(() => el.scrollIntoView({ behavior: 'smooth' }), 150);
+          }
+        } catch (e) {}
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkHash);
+    window.addEventListener('hashchange', checkHash);
+
     const themeToggleBtn = document.getElementById('themeToggleBtn');
     let isDark = true;
     themeToggleBtn.addEventListener('click', () => {
